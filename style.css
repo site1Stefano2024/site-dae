@@ -389,6 +389,100 @@ header .categorias {
     color: #ccc;
 }
 
+footer.rodape {
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container-rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.coluna {
+    flex: 1 1 300px;
+    min-width: 280px;
+}
+
+.coluna h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #f5f5f5;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+.coluna p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.coluna a {
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.coluna a:hover {
+    color: #fff;
+}
+
+.coluna input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+}
+
+.coluna button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.coluna button:hover {
+    background-color: #0056b3;
+}
+
+.copy {
+    max-width: 1200px;
+    margin: 40px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.copy p {
+    margin: 5px 0;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .container-rodape {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
 @media screen and (max-width:768px) {
 
     /* Banner */
